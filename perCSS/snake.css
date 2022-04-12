@@ -1,0 +1,138 @@
+body>*{
+	font-family:arial narrow;
+}
+body{
+	background: url("Images/openingScreenBackground.jpg");
+	background-size: cover;
+}
+
+#arenaContainer{
+	text-align: center;
+}
+#crawlableArena{
+	height: 520px;
+	width: 520px;
+	border: 10px solid black;
+	margin-top: 5%;
+	border-image: url("Images/border.jpg") 20 round;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+	background: url("Images/clayTexture.jpg");
+}
+#crawlableArena div{
+	height: 20px;
+	width: 20px;
+	border: 1px solid transparent;
+}
+.snake{
+	background: url("Images/snakeBodyBlue.svg");
+	background-size: cover;
+}
+
+.snakeRed{
+	background: url("Images/snakeBodyRed.svg");
+	background-size: cover;
+}
+.head{
+	background: url("Images/snakeHeadBlue.svg");
+	background-size: cover;
+}
+.headUp{
+
+	background: url("Images/snakeHeadBlueUp.svg");
+	background-size: cover;
+}
+.headDown{
+
+	background: url("Images/snakeHeadBlueDown.svg");
+	background-size: cover;
+}
+.headLeft{
+
+	background: url("Images/snakeHeadBlueLeft.svg");
+	background-size: cover;
+}
+.headRed{
+	background: url("Images/snakeHeadRed.svg");
+	background-size: cover;
+
+}
+.headUpRed{
+	background: url("Images/snakeHeadRedUp.svg");
+	background-size: cover;
+}
+.headDownRed{
+	background: url("Images/snakeHeadRedDown.svg");
+	background-size: cover;
+}
+.headLeftRed{
+	background: url("Images/snakeHeadRedLeft.svg");
+	background-size: cover;
+}
+.gameOptions{
+	margin-top: 8%;
+	text-align: center;
+	padding: 20px;
+	background: rgba(0, 0, 0, .8);
+	border-radius: 25px;
+}
+.gameOptions>*{
+	color: white;
+}
+.gameOptions>form{
+	margin-top: 20px;
+}
+.red{
+	margin-right: 15%;
+}
+.on{
+	margin-right: 15%;
+}
+.sfxTitle,.levelTitle{
+	margin-top: 20px;
+}
+.startGame{
+	margin-top: 20px;
+}
+select{
+	margin: 20px 0px 20px 0px !important;
+	color: black !important;
+	font-family: monotype corsiva !important;
+	font-weight: bold;
+	width: 90%;
+	outline: none;
+}
+.scoreHolder{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.scoreContainer button{
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .scoreHolder{
+  		float: right;
+  		width: 80%;
+  }
+}
+.apple{
+	background: url("Images/apple.svg");
+	background-size: cover;
+}
+.scoreContainer img{
+	margin-top: 25%;
+}
+.toBeDisabled{
+	pointer-events: none;
+	color: grey;
+}
+.scoreContainer button{
+	text-align: center;
+	width: 100% !important;
+	margin-top: 20px;
+}

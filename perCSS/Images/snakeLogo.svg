@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="singlePlayerMode.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     guidehicolor="#fabb00"
+     guidehiopacity="0.49803922"
+     inkscape:zoom="0.6551253"
+     inkscape:cx="170.19645"
+     inkscape:cy="341.15611"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g829" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g829"
+       transform="matrix(0.31867525,0,0,0.31409289,3.1549127,2.7113419)">
+      <ellipse
+         style="fill:#044a7c;fill-opacity:1;stroke:#5065d5;stroke-width:8.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+         id="path868"
+         cx="147.92883"
+         cy="150.21347"
+         rx="146.78654"
+         ry="146.78653" />
+      <text
+         xml:space="preserve"
+         style="font-size:68.7841px;line-height:1.25;font-family:Broadway;-inkscape-font-specification:Broadway;fill:#e6e6e6;stroke-width:0.716501"
+         x="58.784859"
+         y="104.69792"
+         id="text3957"
+         transform="scale(0.82254882,1.2157333)"><tspan
+           sodipodi:role="line"
+           style="fill:#e6e6e6;stroke-width:0.716501"
+           x="58.784859"
+           y="104.69792"
+           id="tspan4223">SNAKE </tspan><tspan
+           sodipodi:role="line"
+           style="fill:#e6e6e6;stroke-width:0.716501"
+           x="58.784859"
+           y="190.67807"
+           id="tspan1624">!!!!!!!!!</tspan></text>
+    </g>
+  </g>
+</svg>

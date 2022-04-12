@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	<title> Snake - Game </title>
+	<link rel="stylesheet" type="text/css" href="perCSS/snake.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+	
+
+
+	<div class="container-fluid">
+		<div class="row">
+				
+
+
+				<!--Game options--->
+				<div class="col-lg-3 col-12 gameOptions">
+					<h4> Snake color :</h4>
+					<form class="disable">
+						<input type="radio" name="snakeColor" id="redColor" class="snakeColor"/><label class="red"> Red </label>
+						<input type="radio" name="snakeColor" id="blueColor" class="snakeColor selectedColor" checked/><label class="blue"> Blue</label>
+					</form>
+					<h4 class="sfxTitle"> SFX : </h4>
+					<form>
+
+						<input type="radio" name="sfx" id="sfxOn" checked/><label class="on"> On </label>
+						<input type="radio" name="sfx" /><label class="off"> Off</label>
+					</form>
+					<h4 class="levelTitle"> Levels : </h4>
+					<select class="level disable">
+						<option value="levelOne"> Level 1 (Easy Peasy)</option>
+						<option value="levelTwo"> Level 2 (Oh no the snake's in a hurry)</option>
+						<option value="levelThree"> Level 3 (Hasn't eaten for years) </option>
+					</select><br>
+					<button class="btn btn-outline-light startGame disable"> Start Game</button>
+				</div>
+				
+
+
+				<!---Area for snake to move ---->
+				<div class="col-lg-6 col-12">
+					<div id="arenaContainer">
+						<div id="crawlableArena">
+						</div>
+					</div>
+				</div>
+
+
+				
+				<!---Score container--->
+				<div class="col-lg-3 col-12 scoreContainer">
+					<div class="scoreHolder bg-dark d-none d-lg-block">
+						<h4 class="text-light"> Score : <span class="score"> 0 </span></h4>
+					</div>
+					<button class="btn btn-outline-light restart"> Restart </button>
+						<img src="perCSS/Images/snakeLogo.svg" class="img-fluid"/>
+				</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="JS/snake.js"></script> 
+</html>
