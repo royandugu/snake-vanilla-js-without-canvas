@@ -18,4 +18,4 @@ The snake moves on the grid with respect to the direction variable which is chan
 pressed in the keyboard. 
 
 ### Extra features
-SFX && Snake Color Change <<Red and Blue>>
+SFX && Snake Color Change (Red and Blue)
