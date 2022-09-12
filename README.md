@@ -24,6 +24,6 @@ SFX && Snake Color Change (Red and Blue)
 ### View
 <br>
 
-![](ForReadMe%5C1.JPG)
+<img src="ForReadMe/1.JPG"/>
 
 <br>
