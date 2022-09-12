@@ -19,3 +19,11 @@ pressed in the keyboard.
 
 ### Extra features
 SFX && Snake Color Change (Red and Blue)
+<br>
+
+### View
+<br>
+
+![](ForReadMe%5C1.JPG)
+
+<br>
